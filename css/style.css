@@ -1,4 +1,15 @@
 /*Barra de naveganacion*/
+
+header
+{
+    position: fixed;
+    width: 100%;
+   top: 0;
+}
+body
+{
+    padding-top:100px;
+}
 .navbar {
     padding: 2rem;
     background-color: #347ac0 !important;
