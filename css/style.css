@@ -278,6 +278,7 @@ margin:10px;
 {
     font-size: 1.1rem;
     margin: 20px;
+    font-weight: bold;
     
 }
 /*articulos*/
@@ -299,7 +300,11 @@ text-align: center;
 {
     font-weight: bold;
 }
-
+li
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
 /*testimonios*/
 .testimonios
 {
