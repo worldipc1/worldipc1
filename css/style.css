@@ -1,0 +1,370 @@
+/*Barra de naveganacion*/
+.navbar {
+    padding: 2rem;
+    background-color: #347ac0 !important;
+
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*adaptable responsivo*/
+@media screen and (max-width:767px) {
+    .logo {
+        display: none;
+    }
+}
+
+/*seccion hero*/
+.hero {
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Oswald', sans-serif;
+
+}
+.hero-principal
+{
+    padding: 30px;
+ 
+}
+.hero-imagen
+{
+    
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+.hero-principal h2
+{
+    font-size: 1.5rem;
+    color:#615151;
+}
+/*sobre mi*/
+.sobre-mi
+{
+    height: 500px;
+    padding:  10px;
+}
+.sobre-mi .contenedor
+{
+    width: 600px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 700px)
+{
+.hero-inferior-imagen
+{
+    max-width: 600px;
+}
+}
+
+.seccion-oscura
+{
+    color:white;
+    background-color: black;
+}
+.seccion-clara
+{
+
+    color: black;
+    background-color: whitesmoke;
+
+}
+.seccion-titulo
+{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Oswald', sans-serif;
+}
+.seccion-texto
+{
+    font-size: 1.2rem;
+}
+.experiencia
+{
+    padding: 40px 40px 60px 40px;
+    
+}
+
+
+.experiencia-titulo
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.experiencia i{
+    font-size: 2.5rem;
+    color:#7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+
+}
+.badges-contenedor
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin:10px 0;
+}
+.badges
+{
+    padding: 10px;
+    margin: 5px;
+}
+
+.experiencia{
+    padding: 20px;
+    border:2px solid #8080804d;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.experiencia .columna:hover
+{
+    color:white;
+    background-color: #1b1b32;
+   
+
+}
+
+.experiencia .columna
+{
+    padding: 20px;
+    border:solid #8080804d;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+/*Proyectos*/
+.proyectos-recientes
+{
+    padding: 40px;
+}
+.seccion-descripcion
+{
+font-size: 1.2rem;
+color:#615151;
+}
+.texto-blanco
+{
+    color: white;
+}
+.texto-negro
+{
+    color: black;
+}
+.proyectos-recientes img
+{
+height: 100%;
+width: 100%;
+padding: 10px;
+border-radius: 10px;
+display: block;
+transition: all 0.2s ease;
+
+}
+.proyectos-contenedor
+{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+.proyecto:hover .overlay
+{
+opacity: 1;
+
+}
+.overlay
+{
+    transition: all 0.2s ease;
+    opacity:0;
+    position:absolute;
+    bottom: 10px;
+   /* transform:(-50%, -50%);*/
+    text-align:center;
+    width: 100%;
+
+}
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-shadow: 0px 5px 3px blueviolet;
+  
+}
+.proyecto
+{
+    position: relative;
+}
+
+.proyecto:hover img
+{
+    opacity: 0.2;
+}
+
+.proyecto:hover  .overlay
+
+{
+    opacity:1;
+}
+
+.overlay .iconos-contenedor
+{
+    display: flex;
+    justify-content: space-around;
+}
+.overlay i
+{
+color:black;
+font-size: 60px ;
+margin:10px;
+
+}
+
+@media screen and (max-width:400px)
+{
+    .overlay p
+    {
+        font-size: 18px;
+    }
+    .overlay i {
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:400px)
+{
+    .seccion-texto
+    {
+        width: 100%;
+        padding:1rem;
+        text-align: justify;
+    }
+}
+.btn-info
+{
+    font-size: 1.1rem;
+    margin: 20px;
+    
+}
+/*articulos*/
+
+.articulos
+{
+    
+    height: 500px;
+    padding: 30px;
+}
+.articulos .card
+{
+max-width: 600px;
+width: 80%;
+margin:20px;
+text-align: center;
+}
+.articulos .card-header
+{
+    font-weight: bold;
+}
+
+/*testimonios*/
+.testimonios
+{
+    padding:40px 40px 80px 40px;
+
+}
+.testimonios-carrusel
+{
+    max-width: 800px;
+}
+.carousel-item
+{
+    height: 500px;
+
+}
+
+.carousel-item .container
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio-imagen
+{
+    height: 150px;
+    width: 150px;
+    margin: 10px 10px 20px 10px;
+
+}
+.testimonio-texto
+{
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    
+}
+
+.testimonio-info
+{
+    font-weight: bold;
+    text-align: center;
+
+}
+.testimonio-info p
+{
+    margin-bottom: 0;
+   
+}
+
+.testimonio-footer .cliente
+{
+    font-size: 1.2rem;
+    
+}
+
+.testimonio-info .cargo
+{
+    font-size:0.9rem;
+    color:#656060;
+    
+}
+.carousel-control-next:hover
+{
+    color: #2b0e96;
+    text-shadow: 2px 1px 5px rgb(255, 64, 0);
+    opacity: 0.3;
+    text-transform: uppercase;
+}
+.carousel-control-prev
+{
+    color: #2b0e96;
+    text-shadow: 2px 1px 5px rgb(255, 64, 0);
+    opacity: 0.3;
+    text-transform: uppercase;
+}
