@@ -75,10 +75,11 @@ h1 {
 {
     height: 500px;
     padding:  10px;
+    scroll-margin-top: 100px;
 }
 .sobre-mi .contenedor
 {
-    width: 600px;
+    width: auto;
     text-align: center;
 }
 
@@ -177,6 +178,7 @@ h1 {
 .proyectos-recientes
 {
     padding: 40px;
+    scroll-margin-top: 100px;
 }
 .seccion-descripcion
 {
@@ -318,6 +320,7 @@ text-align: center;
 .testimonios
 {
     padding:40px 40px 80px 40px;
+    scroll-margin-top: 100px;
 
 }
 .testimonios-carrusel
@@ -326,7 +329,7 @@ text-align: center;
 }
 .carousel-item
 {
-    height: 500px;
+    min-height: 500px;
 
 }
 
@@ -393,6 +396,9 @@ text-align: center;
     opacity: 0.3;
     text-transform: uppercase;
 }
+.contacto{
+    scroll-margin-top: 100px;
+}
 
 .contacto .container
 {
@@ -417,6 +423,7 @@ box-shadow: 0 1px 4px 1px white;
     color:white;
     font-size: 1.2rem;
 }
+
 .contacto button:hover
 {
     background-color: white;
