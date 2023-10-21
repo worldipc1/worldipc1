@@ -48,16 +48,16 @@
                     </a>
                     <ul class="navbar-nav d-flex justify-content-center align-items-center">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Sobre Mi</a>
+                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">testimonios</a>
+                            <a class="nav-link" aria-disabled="true" href="#testimonios">testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">contactos</a>
+                            <a class="nav-link " aria-disabled="true" href="#contactos">contactos</a>
                         </li>
                     </ul>
 
@@ -78,7 +78,7 @@
 
     </section>
     <!--seccion sobre mi-->
-    <section class="sobre-mi seccion-oscura">
+    <section  id="sobre-mi"class="sobre-mi seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo texto-blanco">Conoce a Carlos Bossini</h2>
             <p class="seccion-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ad ipsum ratione
@@ -140,7 +140,7 @@
     </section>
     <!--Proyectos-->
     <section class="proyectos-recientes seccion-clara d-flex flex-column">
-        <h2 class="seccion-titulo  texto-negro">Mis Proyectos recientes</h2>
+        <h2 id="proyectos" class="seccion-titulo  texto-negro">Mis Proyectos recientes</h2>
         <h3 class="seccion-descripcion">Estos son Algunos de mis proyectos recientes</h3>
 
 
@@ -285,7 +285,7 @@
     </section>
     <!--testimonios carrusel-->
     <section class="testimonios seccion-clara">
-        <h2 class="seccion-titulo">Testimonios</h2>
+        <h2 id="testimonios"class="seccion-titulo">Testimonios</h2>
         <h3 class="seccion-descripcion">Estos son los testimonios de mis clientes</h3>
         <!--carrusel-->
         <div id="testimonio-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
@@ -329,13 +329,17 @@
             </button>
         </div>
     </section>
+
     <!--seccion contacto-->
+
     <section class="contacto seccion-oscura">
         <div class="container">
             <div class="container text-center rectangulo d-flex justify-content-evenly">
                 <div class="row">
-                    <div class="col-12 col-md-4 seccion-titulo"> Hablemos</div>
-                    <div class="col-12 col-m-4 descripcion"> Contactame para hacer tu proyecto web
+                    <div class="col-12 col-md-4 seccion-titulo"> 
+                        Hablemos !!!
+                    </div>
+                    <div class="col-12 col-m-4 descripcion "> Contactame para hacer tu proyecto web y lo tendremos listo lo antes posible para tu satisfaccion
                     </div>
                     <div class="col-12 col-m-4">
                         <a href="mailto: worldipc1@live.com">
@@ -346,6 +350,20 @@
             </div>
         </div>
     </section>
+
+<!--pie de pagina-->
+
+    <footer id="contactos" class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<img class="footer-logo"src="./img/icono-blanco.svg" alt="logo del portafolio">
+<p class="footer-texto text-center">Aprendo y Creo todos los dias</p>
+<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+    <a href="https://www.facebook.com/" alt="face"><button class="face"> <i class="bi bi-facebook"></i></button></a>
+    <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D" alt="twitter"><button class="twitter"><i class="bi bi-twitter"></i></button></a>
+    <a href="https://ar.linkedin.com/" alt="linkedin"><button class="linkedin"> <i class="bi bi-linkedin"></i></button></a>
+</div>
+
+<div class="derecho-de-autor">Creado Por Carlos Bossini todos los derechos reservados 2023 &#169;</div>
+    </footer>
 
 
 
