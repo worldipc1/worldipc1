@@ -9,6 +9,8 @@ header
     width: 100%;
    top: 0;
    z-index: 1;
+left: 0;
+right: 0;
 }
 body
 {
@@ -468,6 +470,12 @@ footer
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #7ade30;
 }
+.derecho-de-autor
+{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 /*iconos redes sociales*/
 
 .iconos-redes-sociales a
@@ -535,9 +543,9 @@ padding-top: 20px;
         width: 100%;
     }
 }
-.contact
+.contact-container
 {
-    scroll-margin-top: 100px;
+    scroll-margin-top: 120px;
 }
 
 /* nuestra ubiacion */
