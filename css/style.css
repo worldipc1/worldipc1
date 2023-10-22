@@ -384,20 +384,7 @@ text-align: center;
     color:#656060;
     
 }
-.carousel-control-next:hover
-{
-    color: #2b0e96;
-    text-shadow: 2px 1px 5px rgb(255, 64, 0);
-    opacity: 0.3;
-    text-transform: uppercase;
-}
-.carousel-control-prev
-{
-    color: #2b0e96;
-    text-shadow: 2px 1px 5px rgb(255, 64, 0);
-    opacity: 0.3;
-    text-transform: uppercase;
-}
+
 
 
 .contacto .container
