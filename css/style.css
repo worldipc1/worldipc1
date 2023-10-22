@@ -530,6 +530,9 @@ footer
 {
 display: flex;
 padding-top: 20px;
+justify-content: space-around;
+left: 20px;
+right: 20px;
 }
 
 .btn
