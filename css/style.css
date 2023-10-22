@@ -396,9 +396,7 @@ text-align: center;
     opacity: 0.3;
     text-transform: uppercase;
 }
-.contacto{
-    scroll-margin-top: 100px;
-}
+
 
 .contacto .container
 {
@@ -509,4 +507,52 @@ footer
     font-size: 15px;
     color:white;
     padding: 20px;
+}
+
+/* contacto.index */
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+
+
+.form-group
+{
+display: flex;
+padding-top: 20px;
+}
+
+.btn
+{
+    margin-bottom: 20px;
+}
+@media (max-width:770px)
+{
+    .formy
+    {
+        width: 100%;
+    }
+}
+.contact
+{
+    scroll-margin-top: 100px;
+}
+
+/* nuestra ubiacion */
+
+.nuestra-ubicacion
+{
+padding-top: 50px;
+display: flex;
+text-align: center;
+justify-content: space-around;
+text-decoration: overline;
+padding-bottom: 100px;
+}
+
+.mapouter
+{
+margin-bottom: 100px;
 }

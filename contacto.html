@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--meta datos-->
+    <meta charset="UTF-8">
+    <meta name="author" content="Carlos Bossini">
+    <meta name="description" content="Portafolio de desarrollo de Calos Bossini">
+    <meta name="keywords" content="HTML,CSS,JavaScript, React">
+    <!-- <meta name="viewport" conten="device-width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <!--titulo-->
+    <title>Carlos Bossini2 /Desarrollo web Front-End</title>
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/icono.png">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:wght@700&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Poppins:wght@700&family=Share+Tech+Mono&family=Young+Serif&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body class="container-fluid">
+    <!--Barra de Navegacion-->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarToggler">
+                    <a class="navbar-brand" href="#"><img class="logo" src="./img/icono.png" alt="logopaginaweb">
+                    </a>
+                    <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Proyectos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true" href="./index.html">testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="#contact">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-disabled="true" href="./ubicacion.html#nuestra-ubicacion">Ubicacion</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Seccion Hero-->
+    <section class="hero align-items-stretch mt-20px">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen rounded-circle" src="./img/desarrollador-ejemplo.svg" alt="fotodecarlos">
+            <h1>Hola Soy Carlos Bossini</h1>
+            <h2>Desarollo web y puedo adaptar tu trabajo</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="./img/hero-inferior.svg" alt="imageninferior">
+        </div>
+
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="well well-sm">
+                    <form class="form-horizontal" method="post">
+                        <fieldset>
+                            <legend id="contact" class="text-center header">Contactanos</legend>
+
+                            <div class="form-group ">
+                                <span class="col-md-1 col-md-offset-2 text-center "><i
+                                        class="bi bi-person-bounding-box"></i></span>
+                                <div class="col-md-8  formy">
+                                    <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="bi bi-person-bounding-box"></i></span>
+                                <div class="col-md-8 formy">
+                                    <input id="lname" name="name" type="text" placeholder="Apellido"
+                                        class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="bi bi-envelope-at"></i></span>
+                                <div class="col-md-8 formy">
+                                    <input id="email" name="email" type="text" placeholder="Direccion de Email"
+                                        class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="bi bi-telephone-plus"></i></span>
+                                <div class="col-md-8 formy">
+                                    <input id="phone" name="phone" type="text" placeholder="Numero de Telefono"
+                                        class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <span class="col-md-1 col-md-offset-2 text-center"><i
+                                        class="bi bi-card-text"></i></i></span>
+                                <div class="col-md-8 formy">
+                                    <textarea class="form-control" id="message" name="message"
+                                        placeholder="Ingresa tu consulta aqui y pronto te contactaremos"
+                                        rows="7"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" disabled class="btn btn-primary btn-lg">Enviar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="./img/icono-blanco.svg" alt="logo del portafolio">
+        <p class="footer-texto text-center">Aprendo y Creo todos los dias</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://www.facebook.com/" alt="face"><button class="face rounded-5 "> <i
+                        class="bi bi-facebook"></i></button></a>
+            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZXMifQ%3D%3D%22%7D"
+                alt="twitter"><button class="twitter rounded-5"><i class="bi bi-twitter"></i></button></a>
+            <a href="https://ar.linkedin.com/" alt="linkedin"><button class="linkedin rounded-5"> <i
+                        class="bi bi-linkedin"></i></button></a>
+        </div>
+
+        <div class="derecho-de-autor">Creado Por Carlos Bossini todos los derechos reservados 2023 &#169;</div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
